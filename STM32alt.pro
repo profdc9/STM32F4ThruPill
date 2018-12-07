@@ -1,4 +1,4 @@
-update=12/1/2018 1:02:43 AM
+update=12/6/2018 9:41:03 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,8 +62,7 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=STM32alt-cache
-LibName34=stm32f103c8t6
-LibName35=stm32f405rgt6
+LibName34=stm32f405rgt6
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

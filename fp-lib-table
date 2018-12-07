@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name STM32alt)(type KiCad)(uri "$(KIPRJMOD)/STM32alt.pretty")(options "")(descr ""))
+  (lib (name ComboFootprint)(type KiCad)(uri "$(KIPRJMOD)/ComboFootprint.pretty")(options "")(descr ""))
 )

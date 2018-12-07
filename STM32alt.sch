@@ -32,7 +32,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:STM32alt-cache
-LIBS:stm32f103c8t6
 LIBS:stm32f405rgt6
 EELAYER 25 0
 EELAYER END
@@ -856,10 +855,8 @@ Text GLabel 8200 1150 1    60   Input ~ 0
 PB3
 Wire Wire Line
 	8200 1150 8200 1350
-Text GLabel 8400 4050 3    60   Input ~ 0
-PB2
 Wire Wire Line
-	8400 4050 8400 3850
+	8400 3850 8400 4250
 Text GLabel 8700 1100 1    60   Input ~ 0
 PA15
 Wire Wire Line
@@ -992,4 +989,19 @@ Text GLabel 9800 1850 2    60   Input ~ 0
 3V3B
 NoConn ~ 8100 3850
 NoConn ~ 8000 3850
+$Comp
+L R R1
+U 1 1 5C09DA27
+P 8400 4400
+F 0 "R1" V 8500 4400 50  0000 C CNN
+F 1 "100k" V 8400 4400 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8330 4400 50  0001 C CNN
+F 3 "" H 8400 4400 50  0001 C CNN
+	1    8400 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4550 8400 4650
+Text GLabel 8400 4650 3    60   Input ~ 0
+GNDB
 $EndSCHEMATC
